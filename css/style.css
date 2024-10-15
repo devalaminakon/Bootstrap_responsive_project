@@ -1,0 +1,31 @@
+/* common css start */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    max-width: 1200px;
+}
+/* common css end */
+
+
+/* navbar start  */
+#menu ul li a{
+    padding-left: 58px;
+}
+#menu ul:first-child {
+    padding-left: 0;
+}
+
+.navbar-expand-lg .navbar-nav {
+    margin: 0 auto;
+}
+/* navbar end */
